@@ -2,12 +2,12 @@ import React from 'react'
 
 import * as S from './styles'
 
-const {{pascalCase name}} = () => {
+const Header = () => {
   return (
     <S.Wrapper>
-      <h1>{{pascalCase name}}</h1>
+      <h1>Header</h1>
     </S.Wrapper>
   )
 }
 
-export default {{pascalCase name}}
+export default Header
