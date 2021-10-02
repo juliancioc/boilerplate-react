@@ -21,7 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@types/react-router-dom": "^5.3.0",
-    "@types/styled-components": "^5.1.14"
+    "@types/styled-components": "^5.1.14",
+    "husky": "^7.0.0"
   }
 }
